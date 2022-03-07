@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/fragment_vertical_margin"
+    android:paddingLeft="@dimen/fragment_horizontal_margin"
+    android:paddingRight="@dimen/fragment_horizontal_margin"
+    android:paddingTop="@dimen/fragment_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".PribadiFragment"
+    tools:ignore="MissingDefaultResource">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/fragment_vertical_margin"
+        android:gravity="center"
+        android:text="BIODATA ORANGTUA"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_margin="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_marginBottom="@dimen/fragment_vertical_margin"
+            android:text="Nama Ayah : "
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edt_ayah"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:drawablePadding="@dimen/fragment_horizontal_margin"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_marginBottom="16dp"
+            android:text="TTL : "
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/edt_tanggal_ayah"
+            android:drawablePadding="@dimen/fragment_vertical_margin"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginBottom="@dimen/fragment_vertical_margin" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_margin="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_marginBottom="@dimen/fragment_vertical_margin"
+            android:text="Alamat : "
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edt_alamat_ayah"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:drawablePadding="@dimen/fragment_horizontal_margin"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_margin="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_marginBottom="@dimen/fragment_vertical_margin"
+            android:text="Nama Ibu : "
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edt_Ibu"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:drawablePadding="@dimen/fragment_horizontal_margin"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_margin="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_marginBottom="@dimen/fragment_vertical_margin"
+            android:text="TTL : "
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edt_tanggal_ibu"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:drawablePadding="@dimen/fragment_horizontal_margin"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_margin="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_marginBottom="@dimen/fragment_vertical_margin"
+            android:text="Alamat : "
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edt_alamat_ibu"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:drawablePadding="@dimen/fragment_horizontal_margin"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+
+
+
+
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finish"/>
+
+</LinearLayout>
